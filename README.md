@@ -1,39 +1,43 @@
-# 🛍️ Müşteri Segmentasyonu (Customer Segmentation) - KMeans Projesi
+# 🛍️ Customer Segmentation - KMeans Clustering Project
+In this project, customer segmentation was performed using the KMeans algorithm based on customer data from a shopping mall.
 
-Bu projede, bir alışveriş merkezinin müşteri verileri kullanılarak KMeans algoritmasıyla müşteri segmentasyonu yapılmıştır.
+## 📊 Features Used
+-Age
 
-## 📊 Kullanılan Özellikler
-- Yaş (Age)
-- Yıllık Gelir (Annual Income)
-- Harcama Skoru (Spending Score)
+-Annual Income
 
-## 🧪 Kullanılan Yöntemler
-- Veri Görselleştirme (Histogram, Scatter Plot)
-- KMeans Kümeleme
-- PCA ve t-SNE ile Görselleştirme
-- Elbow Yöntemi ile optimum küme sayısının belirlenmesi
+-Spending Score
 
-## 📁 Proje Yapısı
+## 🧪 Methods Applied
+-Data Visualization (Histogram, Scatter Plot)
+
+-KMeans Clustering
+
+-Visualization using PCA and t-SNE
+
+-Determining the optimal number of clusters using the Elbow Method
+
+## 📁 Project Structure
 ```
 .
-├── data/                   # Orijinal CSV veri dosyası
-├── images/                 # Grafik çıktıları (PNG)
+├── data/                   # Original CSV dataset
+├── images/                 # Output plots (PNG)
 ├── notebooks/
-│   ├── 01-eda.ipynb        # Keşifsel Veri Analizi (EDA)
-│   └── 02-clustering-kmeans.ipynb  # KMeans ve Kümeleme Görselleştirme
+│   ├── 01-eda.ipynb        # Exploratory Data Analysis (EDA)
+│   └── 02-clustering-kmeans.ipynb  # KMeans & Clustering Visualization
 ├── README.md
 └── requirements.txt
 ```
 
-## 🛠️ Kurulum
-Bu projeyi çalıştırmak için aşağıdaki kütüphanelerin kurulu olması gerekmektedir:
+## 🛠️ Setup
+To run this project, make sure the following libraries are installed:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🧠 Amaç
-Müşteri davranışlarını analiz ederek pazarlama stratejileri ve segment bazlı kampanyalar için veri odaklı bir temel oluşturmak.
+## 🧠 Objective
+To analyze customer behavior and create a data-driven foundation for marketing strategies and segment-based campaigns.
 
-## 👤 Yazar
+## 👤 Author
 - **Yunus Emre Arslan**
